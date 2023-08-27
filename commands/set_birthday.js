@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from "discord.js";
-import { setBirthday } from "../modules/birthday_requests_2.js";
+import { setBirthday } from "../modules/birthday_requests.js";
 
 export const setBirthdayCommand = {
     data: new SlashCommandBuilder()
